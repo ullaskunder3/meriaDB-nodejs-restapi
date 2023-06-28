@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mariaDB_api_collection",
+    "dateExported": "2023-06-28T11:26:50.024Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "80bff07a-8a5f-4148-a31e-e5d9dc8e8635",
+            "colId": "8a7e5493-81a6-49af-bbf6-f999289f61a2",
+            "containerId": "",
+            "name": "create user",
+            "url": "http://localhost:3000/data",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-28T11:20:51.063Z",
+            "modified": "2023-06-28T11:21:27.639Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"luffy\",\n  \"email\": \"luffy@emperor.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cdfbb923-893c-44d0-a524-d21f633c08d8",
+            "colId": "8a7e5493-81a6-49af-bbf6-f999289f61a2",
+            "containerId": "",
+            "name": "get all users",
+            "url": "/data",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-28T11:21:45.541Z",
+            "modified": "2023-06-28T11:26:29.124Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0cd40597-f9f6-482a-aa7b-4c9e45816a52",
+            "colId": "8a7e5493-81a6-49af-bbf6-f999289f61a2",
+            "containerId": "",
+            "name": "update user",
+            "url": "http://localhost:3000/data/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-28T11:22:39.989Z",
+            "modified": "2023-06-28T11:23:56.080Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mr. Ullas Kunder\",\n  \"email\": \"ullaskunder3@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7afc00e0-8d40-4d1b-85b3-9710cd329dfb",
+            "colId": "8a7e5493-81a6-49af-bbf6-f999289f61a2",
+            "containerId": "",
+            "name": "delete user",
+            "url": "http://localhost:3000/data/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-06-28T11:24:17.734Z",
+            "modified": "2023-06-28T11:24:43.170Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:3000"
+        }
+    }
+}
